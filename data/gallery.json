@@ -1,0 +1,218 @@
+[
+  {
+    "src": "/gallery/bedroom-suite-01.jpg",
+    "category": "bedroom",
+    "w": 2000,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/bedroom-suite-02.jpg",
+    "category": "bedroom",
+    "w": 2000,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/bedroom-suite-03.jpg",
+    "category": "bedroom",
+    "w": 2000,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/dining-hall-01.jpg",
+    "category": "dining",
+    "w": 1125,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/dining-hall-02.jpg",
+    "category": "dining",
+    "w": 1500,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/dining-hall-03.jpg",
+    "category": "dining",
+    "w": 2000,
+    "h": 1125
+  },
+  {
+    "src": "/gallery/showcase-room-01.jpg",
+    "category": "living",
+    "w": 1500,
+    "h": 2000
+  },
+  {
+    "src": "/gallery/showcase-room-02.jpg",
+    "category": "living",
+    "w": 2000,
+    "h": 1500
+  },
+  {
+    "src": "/gallery/showcase-room-03.jpg",
+    "category": "living",
+    "w": 2000,
+    "h": 1500
+  },
+  {
+    "src": "/gallery/cafe-lounge-01.jpg",
+    "category": "hospitality",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/gallery/cafe-lounge-02.jpg",
+    "category": "hospitality",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/gallery/restaurant-room-01.jpg",
+    "category": "hospitality",
+    "w": 1920,
+    "h": 1080
+  },
+  {
+    "src": "/gallery/restaurant-room-02.jpg",
+    "category": "hospitality",
+    "w": 1920,
+    "h": 1080
+  },
+  {
+    "src": "/gallery/restaurant-room-03.jpg",
+    "category": "hospitality",
+    "w": 1577,
+    "h": 1080
+  },
+  {
+    "src": "/gallery/bedroom-modern-01.jpg",
+    "category": "bedroom",
+    "w": 1080,
+    "h": 1430
+  },
+  {
+    "src": "/gallery/bedroom-modern-02.jpg",
+    "category": "bedroom",
+    "w": 1475,
+    "h": 1350
+  },
+  {
+    "src": "/gallery/bedroom-modern-03.jpg",
+    "category": "bedroom",
+    "w": 1080,
+    "h": 1423
+  },
+  {
+    "src": "/gallery/dining-room-01.jpg",
+    "category": "dining",
+    "w": 1080,
+    "h": 1387
+  },
+  {
+    "src": "/gallery/dining-room-02.jpg",
+    "category": "dining",
+    "w": 1582,
+    "h": 1350
+  },
+  {
+    "src": "/gallery/dining-room-03.jpg",
+    "category": "dining",
+    "w": 1080,
+    "h": 1412
+  },
+  {
+    "src": "/gallery/living-room-01.jpg",
+    "category": "living",
+    "w": 1859,
+    "h": 995
+  },
+  {
+    "src": "/gallery/living-room-02.jpg",
+    "category": "living",
+    "w": 1859,
+    "h": 995
+  },
+  {
+    "src": "/gallery/living-room-03.jpg",
+    "category": "living",
+    "w": 1859,
+    "h": 995
+  },
+  {
+    "src": "/gallery/living-room-04.jpg",
+    "category": "living",
+    "w": 1859,
+    "h": 995
+  },
+  {
+    "src": "/gallery/kitchen-01.jpg",
+    "category": "kitchen",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/gallery/kitchen-02.jpg",
+    "category": "kitchen",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/gallery/pool-cabana-01.jpg",
+    "category": "pool",
+    "w": 2000,
+    "h": 1042
+  },
+  {
+    "src": "/gallery/pool-cabana-02.jpg",
+    "category": "pool",
+    "w": 2000,
+    "h": 1026
+  },
+  {
+    "src": "/gallery/office-workstation-01.jpg",
+    "category": "office",
+    "w": 1200,
+    "h": 1600
+  },
+  {
+    "src": "/gallery/office-workstation-02.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/gallery/office-workstation-03.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/gallery/lounge-bar-01.jpg",
+    "category": "hospitality",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/gallery/lounge-bar-02.jpg",
+    "category": "hospitality",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/gallery/feature-room-01.jpg",
+    "category": "living",
+    "w": 1155,
+    "h": 1600
+  },
+  {
+    "src": "/gallery/feature-room-02.jpg",
+    "category": "living",
+    "w": 2000,
+    "h": 1125
+  },
+  {
+    "src": "/gallery/feature-room-03.jpg",
+    "category": "living",
+    "w": 2000,
+    "h": 1125
+  }
+]
