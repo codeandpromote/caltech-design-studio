@@ -5,6 +5,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import MobileBottomBar from "@/components/MobileBottomBar";
+import CursorFollower from "@/components/CursorFollower";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -48,6 +49,7 @@ export default function RootLayout({
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
       <body className="bg-ink-900 text-bone-50 selection:bg-gold-400 selection:text-ink-900">
         <SmoothScroll />
+        <CursorFollower />
         <Nav />
         <main>{children}</main>
         <Footer />

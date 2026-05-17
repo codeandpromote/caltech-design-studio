@@ -11,12 +11,19 @@ type Item = { src: string; category: string; w: number; h: number };
 
 const labels: Record<string, string> = {
   all: "All work",
+  residential: "Residential",
   bedroom: "Bedroom",
   living: "Living",
   dining: "Dining",
   kitchen: "Kitchen",
-  hospitality: "Café · Restaurant",
-  office: "Office",
+  cafe: "Café",
+  restaurant: "Restaurant",
+  hospitality: "Hospitality",
+  office: "Office & Workplace",
+  "puja-mandap": "Puja Mandap",
+  furniture: "Furniture",
+  shop: "Retail",
+  previous: "Archive",
   pool: "Outdoor",
 };
 
@@ -96,6 +103,7 @@ export default function GalleryGrid({ items }: { items: Item[] }) {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.5, delay: (i % 12) * 0.03 }}
                 onClick={() => setOpenIdx(i)}
+                data-cursor="view"
                 className="group relative w-full mb-5 break-inside-avoid rounded-md overflow-hidden border border-bone-50/10 bg-ink-700 block"
                 style={{ breakInside: "avoid" }}
               >

@@ -4,59 +4,10 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { stock } from "@/lib/stock";
 import { SHIMMER_DARK } from "@/lib/blur";
+import { PORTFOLIO } from "@/lib/portfolio";
 
-const slides = [
-  {
-    img: stock.bedroom.moody,
-    eyebrow: "Residence",
-    title: "A Quiet Suite",
-    place: "Kolkata",
-  },
-  {
-    img: stock.cafe.arched,
-    eyebrow: "Hospitality",
-    title: "Lantern Café",
-    place: "Behala",
-  },
-  {
-    img: stock.dining.walnut,
-    eyebrow: "Restaurant",
-    title: "The Long Table",
-    place: "Park Circus",
-  },
-  {
-    img: stock.living.olive,
-    eyebrow: "Residence",
-    title: "Hall of Threshold",
-    place: "Salt Lake",
-  },
-  {
-    img: stock.kitchen.marble,
-    eyebrow: "Kitchen",
-    title: "The Stone Kitchen",
-    place: "Rajarhat",
-  },
-  {
-    img: stock.restaurant.gold,
-    eyebrow: "Restaurant",
-    title: "Banquet Room",
-    place: "Kolkata",
-  },
-  {
-    img: "/heritage/lime-work.jpg",
-    eyebrow: "Heritage",
-    title: "Lime Work",
-    place: "Scottish Cemetery",
-  },
-  {
-    img: "/heritage/structural.jpg",
-    eyebrow: "Heritage",
-    title: "Structural Repair",
-    place: "La Martiniere",
-  },
-];
+const slides = PORTFOLIO.signature;
 
 export default function SignatureSlider() {
   const wrap = useRef<HTMLDivElement>(null);
@@ -138,6 +89,7 @@ export default function SignatureSlider() {
             return (
             <div
               key={s.img}
+              data-cursor="view"
               className={`relative shrink-0 snap-center group w-[78vw] sm:w-[55vw] h-[55vh] sm:h-[62vh] lg:max-w-[780px] ${lgWidth} ${lgHeight}`}
             >
               <div className="absolute inset-0 rounded-md overflow-hidden border border-bone-50/10 bg-ink-700">

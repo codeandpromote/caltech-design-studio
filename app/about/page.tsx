@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/PageHero";
 import CTA from "@/components/CTA";
+import RevealMask from "@/components/RevealMask";
 import { stock } from "@/lib/stock";
 import { SHIMMER_DARK } from "@/lib/blur";
 
@@ -23,6 +24,12 @@ const team = [
     title: "Partner · Heritage Restoration",
     creds: "B.Sc · DCE · AMIE · MICI",
     bio: "25 years of experience restoring and rehabilitating heritage buildings — masonry and stone, lime work, waterproofing, non-destructive testing and structural conservation. Has advised on UNESCO World Heritage projects.",
+  },
+  {
+    name: "Rana Bhattacharya",
+    title: "Senior Architect",
+    creds: "Architect · 30+ years",
+    bio: "Three decades of architectural practice across residential, commercial and conservation work in Eastern India. Brings a quiet, drawing-led discipline to every brief — guiding design intent from first sketch through finished build.",
   },
   {
     name: "Mrs. Sudipta Roy",
@@ -57,7 +64,7 @@ const support = [
   { n: "Chandeshwar Kumar Yadav", r: "Supervisor" },
   { n: "Bibhas Sardar", r: "Supervisor" },
   { n: "Raju Mondal", r: "Technician" },
-  { n: "Anal Naskar", r: "Technician" },
+  { n: "Amal Naskar", r: "Technician" },
 ];
 
 export default function AboutPage() {
@@ -83,24 +90,24 @@ export default function AboutPage() {
                 <p>
                   Caltech Design Studio was founded in Kolkata as a practice
                   that holds two often-separated disciplines under one roof —
-                  the design of new interiors, and the conservation of
-                  heritage buildings.
+                  the design of new interiors, and the conservation of heritage
+                  buildings.
                 </p>
                 <p>
                   We&apos;ve come to believe that the same eye is needed for
                   both. Whether a young couple&apos;s first apartment or a
                   19th-century cemetery wall, the work is about listening,
-                  proportion, materials that age honestly, and trades who
-                  still know how to lay them.
+                  proportion, materials that age honestly, and trades who still
+                  know how to lay them.
                 </p>
                 <p>
                   Today the studio works across Kolkata, West Bengal and
-                  occasional projects abroad — including UNESCO advisory at
-                  the Krishna Temple in Patan, Nepal.
+                  occasional projects abroad — including UNESCO advisory at the
+                  Krishna Temple in Patan, Nepal.
                 </p>
               </div>
             </div>
-            <div className="lg:col-span-5 relative aspect-[4/5] rounded-md overflow-hidden border border-bone-50/10 bg-ink-700">
+            <RevealMask className="lg:col-span-5 relative aspect-[4/5] rounded-md border border-bone-50/10 bg-ink-700">
               <Image
                 src={stock.heritage.colonial}
                 alt="Heritage façade"
@@ -110,7 +117,7 @@ export default function AboutPage() {
                 placeholder="blur"
                 blurDataURL={SHIMMER_DARK}
               />
-            </div>
+            </RevealMask>
           </div>
         </div>
       </section>
@@ -123,15 +130,13 @@ export default function AboutPage() {
             People
           </div>
           <h2 className="h-display text-4xl sm:text-5xl md:text-6xl mb-10 sm:mb-14">
-            The hands behind <span className="italic gold-gradient-text">the work.</span>
+            The hands behind{" "}
+            <span className="italic gold-gradient-text">the work.</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-12">
             {team.map((m) => (
-              <article
-                key={m.name}
-                className="border-t border-bone-50/15 pt-6"
-              >
+              <article key={m.name} className="border-t border-bone-50/15 pt-6">
                 <h3 className="font-serif text-2xl text-bone-50">{m.name}</h3>
                 <div className="text-gold-300 text-xs tracking-[0.25em] uppercase mt-2">
                   {m.title}
@@ -171,12 +176,13 @@ export default function AboutPage() {
                 Studio Capability
               </div>
               <h2 className="h-display text-4xl sm:text-5xl md:text-6xl">
-                Hand-led, properly <span className="italic text-terracotta-400">equipped.</span>
+                Hand-led, properly{" "}
+                <span className="italic text-terracotta-400">equipped.</span>
               </h2>
             </div>
             <p className="lg:col-span-5 text-bone-50/60 text-base leading-relaxed">
-              On heritage sites, the right tool matters. The studio maintains
-              an in-house inventory of restoration equipment and a roster of
+              On heritage sites, the right tool matters. The studio maintains an
+              in-house inventory of restoration equipment and a roster of
               long-trusted trades.
             </p>
           </div>

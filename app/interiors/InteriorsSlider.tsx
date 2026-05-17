@@ -5,32 +5,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import gsap from "gsap";
-import { stock } from "@/lib/stock";
 import { SHIMMER_DARK } from "@/lib/blur";
+import { PORTFOLIO } from "@/lib/portfolio";
 
-const slides = [
-  { img: stock.bedroom.moody,       t: "Bedroom" },
-  { img: stock.dining.chandelier,   t: "Dining" },
-  { img: stock.cafe.arched,         t: "Café" },
-  { img: stock.living.neutral,      t: "Living" },
-  { img: stock.kitchen.marble,      t: "Kitchen" },
-  { img: stock.office.loft,         t: "Office" },
-  { img: stock.restaurant.gold,     t: "Restaurant" },
-  { img: stock.bedroom.chandelier,  t: "Bedroom" },
-  { img: stock.living.olive,        t: "Living" },
-  { img: stock.dining.walnut,       t: "Dining" },
-  { img: stock.cafe.edison,         t: "Café" },
-  { img: stock.restaurant.moody,    t: "Restaurant" },
-  { img: stock.kitchen.brass,       t: "Kitchen" },
-  { img: stock.office.creative,     t: "Office" },
-  { img: stock.bedroom.tufted,      t: "Bedroom" },
-  { img: stock.living.editorial,    t: "Living" },
-  { img: stock.dining.brick,        t: "Dining" },
-  { img: stock.cafe.plants,         t: "Café" },
-  { img: stock.restaurant.industrial, t: "Restaurant" },
-  { img: stock.kitchen.industrial,  t: "Kitchen" },
-  { img: stock.office.corridor,     t: "Office" },
-];
+const slides = PORTFOLIO.interiorsSlider;
 
 export default function InteriorsSlider() {
   const trackRef = useRef<HTMLDivElement>(null);
@@ -113,6 +91,7 @@ export default function InteriorsSlider() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.7, delay: (i % 4) * 0.05 }}
+            data-cursor="view"
             className="relative shrink-0 snap-center w-[78vw] sm:w-[55vw] md:w-[42vw] lg:w-[32vw] xl:w-[28vw] aspect-[4/5] rounded-md overflow-hidden border border-bone-50/10 bg-ink-700 group"
           >
             <Image

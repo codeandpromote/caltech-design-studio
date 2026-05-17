@@ -1,218 +1,770 @@
 [
   {
-    "src": "/gallery/bedroom-suite-01.jpg",
-    "category": "bedroom",
-    "w": 2000,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/bedroom-suite-02.jpg",
-    "category": "bedroom",
-    "w": 2000,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/bedroom-suite-03.jpg",
-    "category": "bedroom",
-    "w": 2000,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/dining-hall-01.jpg",
-    "category": "dining",
-    "w": 1125,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/dining-hall-02.jpg",
-    "category": "dining",
-    "w": 1500,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/dining-hall-03.jpg",
-    "category": "dining",
-    "w": 2000,
-    "h": 1125
-  },
-  {
-    "src": "/gallery/showcase-room-01.jpg",
-    "category": "living",
-    "w": 1500,
-    "h": 2000
-  },
-  {
-    "src": "/gallery/showcase-room-02.jpg",
-    "category": "living",
-    "w": 2000,
-    "h": 1500
-  },
-  {
-    "src": "/gallery/showcase-room-03.jpg",
-    "category": "living",
-    "w": 2000,
-    "h": 1500
-  },
-  {
-    "src": "/gallery/cafe-lounge-01.jpg",
+    "src": "/portfolio/hospitality/hospitality-01.jpg",
     "category": "hospitality",
-    "w": 1600,
-    "h": 1200
+    "w": 895,
+    "h": 575
   },
   {
-    "src": "/gallery/cafe-lounge-02.jpg",
+    "src": "/portfolio/cafe/cafe-01.jpg",
+    "category": "cafe",
+    "w": 765,
+    "h": 1020
+  },
+  {
+    "src": "/portfolio/hospitality/hospitality-02.jpg",
     "category": "hospitality",
-    "w": 1600,
-    "h": 1075
+    "w": 900,
+    "h": 600
   },
   {
-    "src": "/gallery/restaurant-room-01.jpg",
+    "src": "/portfolio/restaurant/restaurant-01.jpg",
+    "category": "restaurant",
+    "w": 600,
+    "h": 500
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-02.jpg",
+    "category": "restaurant",
+    "w": 1800,
+    "h": 1191
+  },
+  {
+    "src": "/portfolio/cafe/cafe-02.jpg",
+    "category": "cafe",
+    "w": 1360,
+    "h": 1020
+  },
+  {
+    "src": "/portfolio/hospitality/hospitality-03.jpg",
     "category": "hospitality",
-    "w": 1920,
-    "h": 1080
+    "w": 765,
+    "h": 1020
   },
   {
-    "src": "/gallery/restaurant-room-02.jpg",
+    "src": "/portfolio/hospitality/hospitality-04.jpg",
     "category": "hospitality",
-    "w": 1920,
-    "h": 1080
+    "w": 765,
+    "h": 1020
   },
   {
-    "src": "/gallery/restaurant-room-03.jpg",
+    "src": "/portfolio/hospitality/hospitality-05.jpg",
     "category": "hospitality",
-    "w": 1577,
-    "h": 1080
+    "w": 1360,
+    "h": 612
   },
   {
-    "src": "/gallery/bedroom-modern-01.jpg",
-    "category": "bedroom",
+    "src": "/portfolio/hospitality/hospitality-06.jpg",
+    "category": "hospitality",
+    "w": 1354,
+    "h": 1020
+  },
+  {
+    "src": "/portfolio/hospitality/hospitality-07.jpg",
+    "category": "hospitality",
+    "w": 1360,
+    "h": 767
+  },
+  {
+    "src": "/portfolio/hospitality/hospitality-08.jpg",
+    "category": "hospitality",
+    "w": 270,
+    "h": 186
+  },
+  {
+    "src": "/portfolio/shop/shop-01.jpg",
+    "category": "shop",
+    "w": 1800,
+    "h": 1013
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-03.jpg",
+    "category": "restaurant",
+    "w": 720,
+    "h": 385
+  },
+  {
+    "src": "/portfolio/puja-mandap/puja-mandap-01.jpg",
+    "category": "puja-mandap",
+    "w": 538,
+    "h": 740
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-04.jpg",
+    "category": "restaurant",
+    "w": 637,
+    "h": 454
+  },
+  {
+    "src": "/portfolio/office/office-01.jpg",
+    "category": "office",
+    "w": 1800,
+    "h": 1800
+  },
+  {
+    "src": "/portfolio/cafe/cafe-03.jpg",
+    "category": "cafe",
+    "w": 597,
+    "h": 320
+  },
+  {
+    "src": "/portfolio/puja-mandap/puja-mandap-02.jpg",
+    "category": "puja-mandap",
+    "w": 581,
+    "h": 1032
+  },
+  {
+    "src": "/portfolio/puja-mandap/puja-mandap-03.jpg",
+    "category": "puja-mandap",
+    "w": 960,
+    "h": 1280
+  },
+  {
+    "src": "/portfolio/cafe/cafe-04.jpg",
+    "category": "cafe",
+    "w": 598,
+    "h": 334
+  },
+  {
+    "src": "/portfolio/cafe/cafe-05.jpg",
+    "category": "cafe",
+    "w": 635,
+    "h": 347
+  },
+  {
+    "src": "/portfolio/puja-mandap/puja-mandap-04.jpg",
+    "category": "puja-mandap",
+    "w": 720,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/office/office-02.jpg",
+    "category": "office",
+    "w": 1800,
+    "h": 1800
+  },
+  {
+    "src": "/portfolio/office/office-03.jpg",
+    "category": "office",
+    "w": 1800,
+    "h": 1800
+  },
+  {
+    "src": "/portfolio/cafe/cafe-06.jpg",
+    "category": "cafe",
+    "w": 609,
+    "h": 355
+  },
+  {
+    "src": "/portfolio/puja-mandap/puja-mandap-05.jpg",
+    "category": "puja-mandap",
+    "w": 540,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/cafe/cafe-07.jpg",
+    "category": "cafe",
     "w": 1080,
-    "h": 1430
+    "h": 1061
   },
   {
-    "src": "/gallery/bedroom-modern-02.jpg",
-    "category": "bedroom",
-    "w": 1475,
-    "h": 1350
-  },
-  {
-    "src": "/gallery/bedroom-modern-03.jpg",
-    "category": "bedroom",
+    "src": "/portfolio/cafe/cafe-08.jpg",
+    "category": "cafe",
     "w": 1080,
-    "h": 1423
+    "h": 995
   },
   {
-    "src": "/gallery/dining-room-01.jpg",
-    "category": "dining",
-    "w": 1080,
-    "h": 1387
+    "src": "/portfolio/puja-mandap/puja-mandap-06.jpg",
+    "category": "puja-mandap",
+    "w": 539,
+    "h": 960
   },
   {
-    "src": "/gallery/dining-room-02.jpg",
-    "category": "dining",
-    "w": 1582,
-    "h": 1350
+    "src": "/portfolio/office/office-04.jpg",
+    "category": "office",
+    "w": 1800,
+    "h": 1800
   },
   {
-    "src": "/gallery/dining-room-03.jpg",
-    "category": "dining",
+    "src": "/portfolio/office/office-05.jpg",
+    "category": "office",
+    "w": 1800,
+    "h": 1800
+  },
+  {
+    "src": "/portfolio/cafe/cafe-09.jpg",
+    "category": "cafe",
     "w": 1080,
     "h": 1412
   },
   {
-    "src": "/gallery/living-room-01.jpg",
-    "category": "living",
-    "w": 1859,
-    "h": 995
+    "src": "/portfolio/cafe/cafe-10.jpg",
+    "category": "cafe",
+    "w": 1600,
+    "h": 1001
   },
   {
-    "src": "/gallery/living-room-02.jpg",
-    "category": "living",
-    "w": 1859,
-    "h": 995
+    "src": "/portfolio/cafe/cafe-11.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
   },
   {
-    "src": "/gallery/living-room-03.jpg",
-    "category": "living",
-    "w": 1859,
-    "h": 995
+    "src": "/portfolio/residential/residential-01.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1000
   },
   {
-    "src": "/gallery/living-room-04.jpg",
-    "category": "living",
-    "w": 1859,
-    "h": 995
+    "src": "/portfolio/residential/residential-02.jpg",
+    "category": "residential",
+    "w": 1349,
+    "h": 1200
   },
   {
-    "src": "/gallery/kitchen-01.jpg",
+    "src": "/portfolio/residential/residential-03.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-05.jpg",
+    "category": "restaurant",
+    "w": 1800,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/residential/residential-04.jpg",
+    "category": "residential",
+    "w": 720,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-05.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1000
+  },
+  {
+    "src": "/portfolio/cafe/cafe-12.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-06.jpg",
+    "category": "restaurant",
+    "w": 1800,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-07.jpg",
+    "category": "restaurant",
+    "w": 1800,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/residential/residential-06.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 969
+  },
+  {
+    "src": "/portfolio/residential/residential-07.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-08.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/cafe/cafe-13.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/cafe/cafe-14.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-09.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/residential/residential-10.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/cafe/cafe-15.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/cafe/cafe-16.jpg",
+    "category": "cafe",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/restaurant/restaurant-08.jpg",
+    "category": "restaurant",
+    "w": 1800,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/residential/residential-11.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-12.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/residential/residential-13.jpg",
+    "category": "residential",
+    "w": 1280,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-14.jpg",
+    "category": "residential",
+    "w": 274,
+    "h": 184
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-01.jpg",
     "category": "kitchen",
+    "w": 1024,
+    "h": 768
+  },
+  {
+    "src": "/portfolio/residential/residential-15.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/residential/residential-16.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-02.jpg",
+    "category": "kitchen",
+    "w": 1024,
+    "h": 830
+  },
+  {
+    "src": "/portfolio/residential/residential-17.jpg",
+    "category": "residential",
+    "w": 1800,
+    "h": 1350
+  },
+  {
+    "src": "/portfolio/residential/residential-18.jpg",
+    "category": "residential",
+    "w": 1475,
+    "h": 1350
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-03.jpg",
+    "category": "kitchen",
+    "w": 876,
+    "h": 513
+  },
+  {
+    "src": "/portfolio/residential/residential-19.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-04.jpg",
+    "category": "kitchen",
+    "w": 1080,
+    "h": 1420
+  },
+  {
+    "src": "/portfolio/residential/residential-20.jpg",
+    "category": "residential",
+    "w": 1582,
+    "h": 1350
+  },
+  {
+    "src": "/portfolio/residential/residential-21.jpg",
+    "category": "residential",
+    "w": 1080,
+    "h": 637
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-05.jpg",
+    "category": "kitchen",
+    "w": 640,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/residential/residential-22.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/residential/residential-23.jpg",
+    "category": "residential",
+    "w": 1600,
+    "h": 1075
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-06.jpg",
+    "category": "kitchen",
+    "w": 1024,
+    "h": 768
+  },
+  {
+    "src": "/portfolio/residential/residential-24.jpg",
+    "category": "residential",
     "w": 1600,
     "h": 1200
   },
   {
-    "src": "/gallery/kitchen-02.jpg",
+    "src": "/portfolio/cafe/cafe-17.jpg",
+    "category": "cafe",
+    "w": 596,
+    "h": 330
+  },
+  {
+    "src": "/portfolio/cafe/cafe-18.jpg",
+    "category": "cafe",
+    "w": 629,
+    "h": 366
+  },
+  {
+    "src": "/portfolio/kitchen/kitchen-07.jpg",
     "category": "kitchen",
+    "w": 1080,
+    "h": 1520
+  },
+  {
+    "src": "/portfolio/cafe/cafe-19.jpg",
+    "category": "cafe",
     "w": 1600,
-    "h": 1200
+    "h": 1001
   },
   {
-    "src": "/gallery/pool-cabana-01.jpg",
-    "category": "pool",
-    "w": 2000,
-    "h": 1042
+    "src": "/portfolio/furniture/furniture-01.jpg",
+    "category": "furniture",
+    "w": 1080,
+    "h": 1457
   },
   {
-    "src": "/gallery/pool-cabana-02.jpg",
-    "category": "pool",
-    "w": 2000,
-    "h": 1026
+    "src": "/portfolio/furniture/furniture-02.jpg",
+    "category": "furniture",
+    "w": 1080,
+    "h": 1412
   },
   {
-    "src": "/gallery/office-workstation-01.jpg",
+    "src": "/portfolio/office/office-06.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-07.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-08.jpg",
+    "category": "office",
+    "w": 1600,
+    "h": 1204
+  },
+  {
+    "src": "/portfolio/office/office-09.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-10.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-11.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-12.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-13.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-14.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-15.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-16.jpg",
     "category": "office",
     "w": 1200,
     "h": 1600
   },
   {
-    "src": "/gallery/office-workstation-02.jpg",
+    "src": "/portfolio/office/office-17.jpg",
     "category": "office",
-    "w": 1280,
-    "h": 963
-  },
-  {
-    "src": "/gallery/office-workstation-03.jpg",
-    "category": "office",
-    "w": 1280,
-    "h": 963
-  },
-  {
-    "src": "/gallery/lounge-bar-01.jpg",
-    "category": "hospitality",
-    "w": 1280,
-    "h": 720
-  },
-  {
-    "src": "/gallery/lounge-bar-02.jpg",
-    "category": "hospitality",
-    "w": 1280,
-    "h": 720
-  },
-  {
-    "src": "/gallery/feature-room-01.jpg",
-    "category": "living",
-    "w": 1155,
+    "w": 1200,
     "h": 1600
   },
   {
-    "src": "/gallery/feature-room-02.jpg",
-    "category": "living",
-    "w": 2000,
-    "h": 1125
+    "src": "/portfolio/office/office-18.jpg",
+    "category": "office",
+    "w": 1600,
+    "h": 1200
   },
   {
-    "src": "/gallery/feature-room-03.jpg",
-    "category": "living",
-    "w": 2000,
-    "h": 1125
+    "src": "/portfolio/office/office-19.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-20.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-21.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-22.jpg",
+    "category": "office",
+    "w": 1152,
+    "h": 560
+  },
+  {
+    "src": "/portfolio/office/office-23.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-24.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-25.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-26.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-27.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 963
+  },
+  {
+    "src": "/portfolio/office/office-28.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-29.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-30.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/office/office-31.jpg",
+    "category": "office",
+    "w": 1280,
+    "h": 720
+  },
+  {
+    "src": "/portfolio/previous/axis-foodcourt.jpg",
+    "category": "previous",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/portfolio/previous/bakeshop-retail.jpg",
+    "category": "previous",
+    "w": 800,
+    "h": 515
+  },
+  {
+    "src": "/portfolio/previous/basera-banquets.jpg",
+    "category": "previous",
+    "w": 751,
+    "h": 497
+  },
+  {
+    "src": "/portfolio/previous/bata-dlf-mall.jpg",
+    "category": "previous",
+    "w": 1540,
+    "h": 990
+  },
+  {
+    "src": "/portfolio/previous/bata-mgf-mall.jpg",
+    "category": "previous",
+    "w": 1387,
+    "h": 770
+  },
+  {
+    "src": "/portfolio/previous/cnbc-newdelhi.jpg",
+    "category": "previous",
+    "w": 1247,
+    "h": 823
+  },
+  {
+    "src": "/portfolio/previous/computer-exchange.jpg",
+    "category": "previous",
+    "w": 1247,
+    "h": 898
+  },
+  {
+    "src": "/portfolio/previous/diamond-showroom.jpg",
+    "category": "previous",
+    "w": 699,
+    "h": 1060
+  },
+  {
+    "src": "/portfolio/previous/glook-bar.jpg",
+    "category": "previous",
+    "w": 1014,
+    "h": 960
+  },
+  {
+    "src": "/portfolio/previous/hi-bedroom-artdresser.jpg",
+    "category": "previous",
+    "w": 2169,
+    "h": 1330
+  },
+  {
+    "src": "/portfolio/previous/hi-living-aquarium.jpg",
+    "category": "previous",
+    "w": 1600,
+    "h": 1200
+  },
+  {
+    "src": "/portfolio/previous/icra-icteas.jpg",
+    "category": "previous",
+    "w": 917,
+    "h": 688
+  },
+  {
+    "src": "/portfolio/previous/khadims-showroom.jpg",
+    "category": "previous",
+    "w": 1155,
+    "h": 802
+  },
+  {
+    "src": "/portfolio/previous/luna-tyres.jpg",
+    "category": "previous",
+    "w": 1320,
+    "h": 880
+  },
+  {
+    "src": "/portfolio/previous/mahabharat-motors-boardroom.jpg",
+    "category": "previous",
+    "w": 1027,
+    "h": 788
+  },
+  {
+    "src": "/portfolio/previous/mahabharat-motors.jpg",
+    "category": "previous",
+    "w": 908,
+    "h": 1228
+  },
+  {
+    "src": "/portfolio/previous/mid-bedroom-boys.jpg",
+    "category": "previous",
+    "w": 1323,
+    "h": 745
+  },
+  {
+    "src": "/portfolio/previous/mid-living-terrace.jpg",
+    "category": "previous",
+    "w": 1264,
+    "h": 673
+  },
+  {
+    "src": "/portfolio/previous/midhi-bedroom-cladding.jpg",
+    "category": "previous",
+    "w": 2258,
+    "h": 1323
+  },
+  {
+    "src": "/portfolio/previous/nola-finedine.jpg",
+    "category": "previous",
+    "w": 972,
+    "h": 697
+  },
+  {
+    "src": "/portfolio/previous/souk-tajbengal.jpg",
+    "category": "previous",
+    "w": 1008,
+    "h": 687
+  },
+  {
+    "src": "/portfolio/previous/star-mall.jpg",
+    "category": "previous",
+    "w": 2415,
+    "h": 1964
   }
 ]

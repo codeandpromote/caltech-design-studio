@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
-import { stock } from "@/lib/stock";
 import { SHIMMER_DARK } from "@/lib/blur";
+import { PORTFOLIO } from "@/lib/portfolio";
 
 const services = [
   {
@@ -14,7 +14,7 @@ const services = [
     title: "Interiors",
     italic: "& Spaces",
     desc: "Residential, commercial, office, café and hospitality interiors — designed with proportion, light and craft. From a private apartment in Kolkata to a flagship workspace, we shape every detail.",
-    img: stock.dining.walnut,
+    img: PORTFOLIO.servicesInteriorsCard,
     href: "/interiors",
     list: ["Residential", "Office & Workplace", "Café · Restaurant", "Retail & Showroom"],
     accent: "bg-gold-400",
@@ -69,6 +69,7 @@ export default function ServicesDuo() {
             >
               <Link
                 href={s.href}
+                data-cursor="view"
                 className="group relative block rounded-md overflow-hidden border border-bone-50/10 bg-ink-800"
               >
                 <div className="relative aspect-[4/5] md:aspect-[5/6] overflow-hidden">

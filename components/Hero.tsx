@@ -5,17 +5,13 @@ import Image from "next/image";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import gsap from "gsap";
 import { ArrowRight } from "lucide-react";
-import { stock } from "@/lib/stock";
 import { SHIMMER_DARK } from "@/lib/blur";
 import GoldDust from "@/components/GoldDust";
 import MagneticButton from "@/components/MagneticButton";
+import AnimatedCounter from "@/components/AnimatedCounter";
+import { PORTFOLIO } from "@/lib/portfolio";
 
-const heroImages = [
-  stock.bedroom.moody,
-  stock.dining.chandelier,
-  stock.cafe.arched,
-  stock.living.neutral,
-];
+const heroImages = PORTFOLIO.hero;
 
 // Each card has its own spring profile — heavier cards lag more, lighter cards
 // snap. This gives the stack a layered "depth" feel as the cursor moves.
@@ -147,14 +143,16 @@ export default function Hero() {
               className="mt-14 grid grid-cols-3 gap-6 max-w-md"
             >
               {[
-                { n: "12+", l: "Years restoring" },
-                { n: "60+", l: "Projects delivered" },
-                { n: "1", l: "UNESCO heritage advisory" },
+                { to: 25, suffix: "+", l: "Years restoring" },
+                { to: 60, suffix: "+", l: "Projects delivered" },
+                { to: 1,  suffix: "",  l: "UNESCO heritage advisory" },
               ].map((s) => (
                 <div key={s.l}>
-                  <div className="font-serif text-3xl md:text-4xl text-gold-300">
-                    {s.n}
-                  </div>
+                  <AnimatedCounter
+                    to={s.to}
+                    suffix={s.suffix}
+                    className="font-serif text-3xl md:text-4xl text-gold-300 inline-block"
+                  />
                   <div className="text-[11px] tracking-[0.25em] uppercase text-bone-50/50 mt-1">
                     {s.l}
                   </div>
@@ -289,6 +287,7 @@ function SpringCard({
 
   return (
     <motion.div
+      data-cursor="view"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, delay: 0.7 + index * 0.15 }}
