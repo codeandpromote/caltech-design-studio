@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/PageHero";
-import InteriorsSlider from "./InteriorsSlider";
 import PreviousProjects from "@/components/PreviousProjects";
 import ClientsStrip from "@/components/ClientsStrip";
 import CTA from "@/components/CTA";
@@ -140,9 +139,6 @@ export default function InteriorsPage() {
           </div>
         </div>
       </section>
-
-      {/* Horizontal slider of work */}
-      <InteriorsSlider />
 
       {/* Previous projects — sourced from the studio's earlier portfolio */}
       <PreviousProjects variant="full" />
