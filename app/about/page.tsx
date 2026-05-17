@@ -122,6 +122,83 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Interior practice */}
+      <section className="relative py-20 md:py-28 bg-ink-800/60 border-y border-bone-50/5">
+        <div className="container-x">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+            <RevealMask className="lg:col-span-6 relative aspect-[4/3] rounded-md border border-bone-50/10 bg-ink-700 order-2 lg:order-1">
+              <Image
+                src="/portfolio/previous/souk-tajbengal.jpg"
+                alt="Souk Luxury Restaurant, Taj Bengal — interior by Caltech Design Studio"
+                fill
+                sizes="(max-width:1024px) 100vw, 50vw"
+                className="object-cover"
+                placeholder="blur"
+                blurDataURL={SHIMMER_DARK}
+              />
+              <div className="absolute left-5 bottom-5 right-5 flex items-end justify-between">
+                <div>
+                  <div className="text-[10px] tracking-[0.3em] uppercase text-gold-300 mb-1.5">
+                    Restaurant
+                  </div>
+                  <div className="font-serif text-xl text-bone-50">
+                    Souk Luxury Restaurant
+                  </div>
+                  <div className="text-bone-50/55 text-xs mt-1">
+                    Taj Bengal, Kolkata
+                  </div>
+                </div>
+              </div>
+            </RevealMask>
+
+            <div className="lg:col-span-6 order-1 lg:order-2">
+              <div className="eyebrow mb-6">
+                <span className="inline-block w-6 h-px bg-gold-300 align-middle mr-3" />
+                Interior Practice
+              </div>
+              <h2 className="h-display text-4xl sm:text-5xl md:text-6xl mb-6">
+                Rooms shaped by{" "}
+                <span className="italic gold-gradient-text">restraint.</span>
+              </h2>
+              <div className="space-y-5 text-bone-50/75 text-lg leading-relaxed font-serif">
+                <p>
+                  Our interior practice covers residences, corporate offices,
+                  restaurants and bars, banquet halls, retail flagships and
+                  hospitality — from a single living room to a flagship
+                  workspace.
+                </p>
+                <p>
+                  Every brief begins by understanding how a space will be lived
+                  in or worked from. We sketch by hand, sample materials in
+                  person and stay involved through site, supervision and
+                  commissioning — so the proportions, light and details we drew
+                  early on actually arrive in the finished room.
+                </p>
+              </div>
+
+              <ul className="mt-8 grid grid-cols-2 gap-3 text-sm text-bone-50/75">
+                {[
+                  "Residential",
+                  "Corporate Office",
+                  "Restaurant & Bar",
+                  "Banquet Hall",
+                  "Retail Showroom",
+                  "Hospitality",
+                ].map((t) => (
+                  <li
+                    key={t}
+                    className="flex items-center gap-3 border-t border-bone-50/10 pt-3"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-gold-400" />
+                    {t}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Team */}
       <section className="relative py-24 md:py-32 bg-ink-800">
         <div className="container-x">
